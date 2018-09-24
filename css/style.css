@@ -1,0 +1,38 @@
+/* colors used
+
+Primary color (blue): #3B7AAA;
+*/
+
+
+
+body{
+  font-family: 'Raleway', sans-serif;
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,600,700" rel="stylesheet">
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1{
+  font-size: 30px;
+}
+
+h2{
+  font-size: 24px;
+}
+
+h3{
+  font-size: 18px;
+}
+
+div {
+  padding: 10px;
+  margin: 10px;
+}
+
+a {
+  color: #3B7AAA;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
