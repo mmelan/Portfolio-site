@@ -3,20 +3,21 @@
 
   <head>
     <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,500,700" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mikael Melan</title>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Londrina+Sketch|Raleway:400,400i,500,700" rel="stylesheet">
+
   </head>
 
   <body>
 
     <header>
-      <div>
-        <a href="index.html">Mikael Melan</a>
+      <div class="container">
+        <a href="index.html" class="logo">Mikael Melan</a>
         <nav>
-          <ul class="navigation">
+          <ul>
             <li><a href="index.html">Work</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -25,63 +26,67 @@
       </div>
     </header>
 
-    <section>
-      <div>
+    <section id="welcome">
+      <div class="container">
         <h1>Welcome to my world of UX!!</h1>
-        <p style="text-align:center;">
+        <p>
           I'm a Finnish social scientist and writer who turned into a Berlin-based UX designer. Please, go ahead and take a look at my work.
         </p>
       </div>
     </section>
 
-    <section>
-      <div>
+    <section id="work">
+      <div class="container">
         <h2>My work</h2>
-        <div>
-          <div>
+
+        <div class="row">
+          <div class="col-lg-5 col-md-5 col-sm-12">
             <img src="img/W&MCover.jpg" alt="Will and Mechanisms cover" >
           </div>
-          <div>
+          <div class="col-lg-7 col-md-7 col-sm-12">
             <h3>Will and Mechanisms</h3>
             <p>Will and Mechanisms was my doctoral dissortation. I spent years studying human action, emotions, and attitudes from the philosophical point of view. My main interest was the clash between the scientific explanations and our everyday view of ourselves. Yes, it is all rather academic...</p>
-            <a href="#">View Project</a>
+            <a href="#" class="button">View Project</a>
           </div>
         </div>
-        <div>
-          <div>
+
+        <div class="row">
+          <div class="col-lg-5 col-md-5 col-sm-12">
             <img src="img/WooordsCover.jpg" alt="Wooords cover" >
           </div>
-          <div>
+          <div class="col-lg-7 col-md-7 col-sm-12">
             <h3>Wooords</h3>
             <p>Wooords is a flashcard app for learning vocabulary. It was my first project at CareerFoundry and, as such, also my first plunge into the UX design. It looks a bit clumsy but yet it plays a very crucial role in my education. During the process, I learned the most important lessons of my whole UX career.</p>
-            <a href="#">View Project</a>
+            <a href="#" class="button">View Project</a>
           </div>
         </div>
-        <div>
-          <div>
+
+        <div class="row">
+          <div class="col-lg-5 col-md-5 col-sm-12">
             <img src="img/ExpertlandCover.jpg" alt="Expertland cover" >
           </div>
-          <div>
+          <div class="col-lg-7 col-md-7 col-sm-12">
             <h3>Expertland</h3>
             <p>Expertland was the main part of my education at CareerFoundry. I created a service that helps people to find and contact experts of various fields. I started from the simple idea and ended up with a clickable prototype. During the process, I gained practice in all the crucial tools and techniques in the field.</p>
-            <a href="#">View Project</a>
+            <a href="#" class="button">View Project</a>
           </div>
         </div>
-        <div>
-          <div>
+
+        <div class="row">
+          <div class="col-lg-5 col-md-5 col-sm-12">
             <img src="img/FluchtCover.jpg" alt="Flucht cover" >
           </div>
-          <div>
+          <div class="col-lg-7 col-md-7 col-sm-12">
             <h3>Flucht</h3>
             <p>My first assignment after my graduation was to optimize a website for Ärzte ohne Grenzen (German section of Médecins Sans Frontières). The purpose of the site is to raise awareness about the refugees in various countries, but the problem was that the users didn’t seem to find their way within the site.</p>
-            <a href="#">View Project</a>
+            <a href="#" class="button">View Project</a>
           </div>
         </div>
       </div>
     </section>
 
     <footer id="contact">
-      <div>
+      <div class="container">
         <h2>Please, get in touch!</h2>
         <div>
           Mikael Melan
@@ -91,7 +96,7 @@
           <br> Tel <a href="tel:+4917672988970">+49 176 72 9889 70</a>
           <br> <a href="mailto:mikaelmelan@gmail.com"> mikaelmelan@gmail.com</a>
         </div>
-       <a href="mailto:mikaelmelan@gmail.com">Send Email</a>
+       <a href="mailto:mikaelmelan@gmail.com" class="button email-button">Send Email</a>
      </div>
     </footer>
 
