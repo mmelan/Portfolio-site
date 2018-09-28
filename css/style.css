@@ -202,6 +202,10 @@ Small devices (smaller than 768px)
     margin: 0 8px;
   }
 
+  [class*="col-"] {
+      padding: 10px;
+  }
+
   .col-sm-12 {
     width: 100%;
   }
