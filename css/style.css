@@ -180,7 +180,7 @@ height:500px;
 
 .wooords_document img {
   display: block;
-  margin-top: 80px;
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
   width: 60%;
@@ -191,7 +191,7 @@ height:500px;
   margin-top: 30px;
   margin-bottom: 30px;
   text-align: left;
-  width: 80%;
+  width: 85%;
 }
 
 /* rows and columns */
