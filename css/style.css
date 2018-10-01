@@ -154,7 +154,7 @@ height:500px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 80px;
-  width: 55%;
+  width: 60%;
 }
 
 #wooords_intro img {
@@ -164,13 +164,15 @@ height:500px;
 }
 
 .wooords_section {
-  font-style: italic;
-  text-align: center;
+  text-align: left;
   margin: auto;
-  width: 55%;
+  width: 60%;
 }
 
 .wooords_section img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 90%;
   margin-top: 60px;
   margin-bottom: 80px;
@@ -185,10 +187,11 @@ height:500px;
 }
 
 .wooords_section ol {
+  padding-left: 120px;
   margin-top: 30px;
   margin-bottom: 30px;
   text-align: left;
-  width: 70%;
+  width: 80%;
 }
 
 /* rows and columns */
