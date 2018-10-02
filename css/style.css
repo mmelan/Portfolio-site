@@ -151,16 +151,13 @@ height:500px;
 
   padding-top: 50px;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 80px;
+  margin: 0px auto 80px auto;
   width: 60%;
 }
 
 #wooords_intro img {
   width: 20%;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin: 40px 0px;
 }
 
 .wooords_section {
@@ -171,25 +168,19 @@ height:500px;
 
 .wooords_section img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 90%;
-  margin-top: 60px;
-  margin-bottom: 80px;
+  margin: 60px auto 80px auto;
 }
 
 .wooords_document img {
   display: block;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 50px auto 0px auto;
   width: 60%;
 }
 
 .wooords_section ol {
   padding-left: 120px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin: 30px 0;
   text-align: left;
   width: 85%;
 }
@@ -200,6 +191,11 @@ height:500px;
     float: left;
     padding: 30px;
     margin-top: 40px;
+}
+
+.wooords_col {
+  margin-top: 0px;
+  padding:30px;
 }
 
 .col-lg-6 {
@@ -241,6 +237,10 @@ Medium devices (smaller than 1025px)
     width: 80%;
   }
 
+  .wooords_section ol {
+    padding-left: 60px;
+  }
+
 }
 
 
@@ -275,6 +275,31 @@ Small devices (smaller than 768px)
   #about {
     width: 100%;
     text-align: left;
+  }
+
+  #wooords_intro {
+    width: 90%;
+  }
+
+  #wooords_intro img {
+    width: 50%;
+  }
+
+  .wooords_section {
+    width: 95%;
+  }
+
+  .wooords_section img {
+    width: 100%;
+  }
+
+  .wooords_document img {
+    width: 95%;
+  }
+
+  .wooords_section ol {
+    padding-left: 20px;
+    width: 90%;
   }
 
 }
