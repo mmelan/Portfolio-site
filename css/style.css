@@ -53,6 +53,10 @@ h4{
   margin-bottom: 60px;
 }
 
+hr {
+  border-color: #E8E9DF;
+}
+
 a {
   color: #1B4F78;
 }
@@ -146,6 +150,68 @@ img {
 
 #skills [class*="col-"] {
 height:500px;
+}
+
+/* Expertland */
+
+#expertland_intro {
+
+  padding-top: 50px;
+  text-align: center;
+  margin: 0px auto 80px auto;
+  width: 60%;
+}
+
+#expertland_intro img {
+  width: 30%;
+  margin: 40px 0px;
+}
+
+.expertland_story {
+  padding-top: 40px;
+  text-align: center;
+  font-style: italic;
+  margin: 0px auto 80px auto;
+  width: 50%;
+}
+
+.expertland_story img {
+  margin: 40px 0px;
+}
+
+.expertland_section {
+  text-align: left;
+  margin: 80px auto 80px auto;
+  width: 60%;
+}
+
+.expertland_section h3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.expertland_section img {
+  display: block;
+  margin: 60px auto 60px auto;
+  width: 80%;
+}
+
+#expertland_screenshots img {
+  width: 60%;
+}
+
+.expertland_section ul {
+  padding-left: 100px;
+  margin: 30px 0;
+  text-align: left;
+  width: 80%;
+}
+
+.expertland_section ol {
+  padding-left: 100px;
+  margin: 30px 0;
+  text-align: left;
+  width: 80%;
 }
 
 /* Wooords */
