@@ -53,6 +53,18 @@ h4{
   margin-bottom: 60px;
 }
 
+h5 {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-left: 80px;
+    padding-top: 40px;
+}
+
+h6 {
+  text-align: center;
+}
+
 hr {
   border-color: #E8E9DF;
 }
@@ -193,7 +205,7 @@ height:500px;
 .expertland_section img {
   display: block;
   margin: 60px auto 60px auto;
-  width: 80%;
+  width: 100%;
 }
 
 #expertland_screenshots img {
@@ -213,6 +225,13 @@ height:500px;
   text-align: left;
   width: 80%;
 }
+
+#expertland_search h3 {
+  text-align: center;
+  margin-top: 130px;
+  margin-bottom: 0;
+}
+
 
 /* Wooords */
 
@@ -324,6 +343,11 @@ height:500px;
   border: 1px dotted #1B4F78;
 }
 
+.col-lg-3{
+  width: 25%;
+}
+
+
 .row::after {
     content: "";
     clear: both;
@@ -343,6 +367,21 @@ Medium devices (smaller than 1025px)
   }
 
   #about {
+    width: 80%;
+  }
+
+  .expertland_section {
+    width: 70%;
+  }
+
+  .expertland_section ol {
+    padding-left: 60px;
+    width: 80%;
+  }
+
+
+  .expertland_section ul {
+    padding-left: 60px;
     width: 80%;
   }
 
@@ -394,6 +433,56 @@ Small devices (smaller than 768px)
   #about {
     width: 100%;
     text-align: left;
+  }
+
+  #expertland_intro{
+    width: 90%;
+    text-align: left;
+  }
+
+  #expertland_intro img {
+    width: 50%;
+    display: block;
+    margin: 40px auto;
+  }
+
+  .expertland_story{
+    width: 80%;
+  }
+
+  .expertland_section {
+    width: 95%;
+  }
+
+  .expertland_section img {
+    width: 100%;
+  }
+
+  .expertland_section ol {
+    padding-left: 20px;
+    width: 90%;
+  }
+
+  .expertland_section ul {
+    padding-left: 20px;
+    width: 90%;
+  }
+
+  #expertland_search_row1 img {
+    width: 60%;
+    display: block;
+    margin: auto;
+  }
+
+  #expertland_search_row2 img {
+    width: 60%;
+    display: block;
+    margin: auto;
+  }
+
+  h5 {
+      padding-left: 20px;
+      padding-top: 40px;
   }
 
   #wooords_intro {
