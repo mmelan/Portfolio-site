@@ -102,14 +102,14 @@ footer{
   border: 2px dotted #1B4F78;
   padding: 10px;
   border-radius: 3px;
+  text-decoration: none;
 }
 
 .email-button {
   display: inline-block;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 0;
-  border: none;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 5px;
 }
 
 .cv-button {
@@ -491,11 +491,12 @@ Small devices (smaller than 768px)
     display: block;
     text-align: center;
     margin: auto;
-    width: 120px;
+    width: 180px;
   }
 
   .email-button {
     margin-top: 30px;
+    width: 160px;
   }
 
   .cv-button {
