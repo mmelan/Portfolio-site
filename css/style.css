@@ -101,7 +101,7 @@ footer{
   font-size: 2em;
   border: 2px dotted #1B4F78;
   padding: 10px;
-  border-radius: 3px;
+  border-radius: 5px;
   text-decoration: none;
 }
 
@@ -115,6 +115,10 @@ footer{
 .cv-button {
   display: inline-block;
   margin-top: 20px;
+}
+
+#photo {
+  border-radius: 12px;
 }
 
 /* Layout styling */
