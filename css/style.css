@@ -393,6 +393,25 @@ height:500px;
   width: 25%;
 }
 
+[id*="row-"] {
+  text-align: center;
+}
+
+#row-1 {
+  height: 650px;
+}
+
+#row-2 {
+  height: 650px;
+}
+
+#row-3 {
+  height: 800px;
+}
+
+#row-4 {
+  height: 800px;
+}
 
 #work-col {
   margin-top: 80px;
@@ -435,6 +454,32 @@ Medium devices (smaller than 1025px)
   .expertland_section ul {
     padding-left: 60px;
     width: 80%;
+  }
+
+  [id*="row-"] {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  [id*="row-"] img {
+    width: 60%;
+    padding: 20px;
+  }
+
+  #row-1 {
+    height: auto !important;
+  }
+
+  #row-2 {
+    height: 600px !important;
+  }
+
+  #row-3 {
+    height: auto !important;
+  }
+
+  #row-4 {
+    height: auto !important;
   }
 
   .wooords_section {
@@ -542,17 +587,29 @@ Small devices (smaller than 768px)
     width: 90%;
   }
 
-  #expertland_search_row1 img {
+
+  [id*="row-"] img {
     width: 60%;
-    display: block;
-    margin: auto;
+    padding: 20px;
+    margin: 0;
   }
 
-  #expertland_search_row2 img {
-    width: 60%;
-    display: block;
-    margin: auto;
+  #row-1 {
+    height: auto !important;
   }
+
+  #row-2 {
+    height: 600px !important;
+  }
+
+  #row-3 {
+    height: auto !important;
+  }
+
+  #row-4 {
+    height: 600px !important;
+  }
+
 
   h5 {
       padding-left: 20px;
