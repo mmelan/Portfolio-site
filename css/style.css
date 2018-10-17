@@ -92,21 +92,24 @@ footer{
   margin-top: 80px;
 }
 
+
 .button {
-  border: none;
-  background-color: #1B4F78;
-  color: white !important;
-  text-decoration:none;
+  font-family: 'Londrina Sketch', cursive;
+  color: #1B4F78 !important;
   text-transform: lowercase;
+  transition: 0.2s opacity;
+  font-size: 2em;
+  border: 2px dotted #1B4F78;
   padding: 10px;
   border-radius: 3px;
-  transition: 0.2s opacity;
 }
 
 .email-button {
   display: inline-block;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0;
+  border: none;
 }
 
 .cv-button {
@@ -154,7 +157,6 @@ a.logo {
 
 a.back-top {
   font-family: 'Londrina Sketch', cursive;
-  text-decoration: none;
   color: #1B4F78;
   font-size: 2em;
 }
