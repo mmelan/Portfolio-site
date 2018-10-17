@@ -92,6 +92,28 @@ footer{
   margin-top: 80px;
 }
 
+.button {
+  border: none;
+  background-color: #1B4F78;
+  color: white !important;
+  text-decoration:none;
+  text-transform: lowercase;
+  padding: 10px;
+  border-radius: 3px;
+  transition: 0.2s opacity;
+}
+
+.email-button {
+  display: inline-block;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.cv-button {
+  display: inline-block;
+  margin-top: 20px;
+}
+
 /* Layout styling */
 
 header {
@@ -130,9 +152,30 @@ a.logo {
   font-size: 3em;
 }
 
+a.back-top {
+  font-family: 'Londrina Sketch', cursive;
+  text-decoration: none;
+  color: #1B4F78;
+  font-size: 2em;
+}
+
 img {
   width: 100%;
 }
+
+/* Animation */
+
+@keyframes logo-rotation {
+  from {transform:rotateX(180deg);}
+  to {transform:rotateX(0deg);}
+}
+
+.animation {
+  animation-duration: 5s;
+  animation-name: logo-rotation;
+  animation-iteration-count: 1;
+}
+
 
 /* Welcome */
 
@@ -334,6 +377,7 @@ height:500px;
   width: 58.33%;
 }
 
+
 .col-lg-5 {
   width: 41.66%;
 }
@@ -345,6 +389,12 @@ height:500px;
 
 .col-lg-3{
   width: 25%;
+}
+
+
+#work-col {
+  margin-top: 80px;
+  padding-right: 80px;
 }
 
 
@@ -428,6 +478,27 @@ Small devices (smaller than 768px)
 
   .col-sm-12 {
     width: 100%;
+  }
+
+  #work-col {
+    margin-top: 10px;
+    padding-right: 0px;
+  }
+
+  .button {
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 120px;
+  }
+
+  .email-button {
+    margin-top: 30px;
+  }
+
+  .cv-button {
+    margin-top: 50px;
+    width: 160px;
   }
 
   #about {
