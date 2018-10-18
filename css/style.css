@@ -276,6 +276,14 @@ img {
   width: 80%;
 }
 
+.expertland_section ul li {
+  margin-bottom: 16px;
+}
+
+.expertland_section ol li {
+  margin-bottom: 16px;
+}
+
 #expertland_search h3 {
   text-align: center;
   margin-top: 130px;
@@ -323,6 +331,10 @@ img {
   width: 85%;
 }
 
+.wooords_section ol li {
+  margin-bottom: 16px;
+}
+
 /* Flucht */
 
 #flucht_intro {
@@ -361,6 +373,10 @@ img {
   margin: 30px 0;
   text-align: left;
   width: 85%;
+}
+
+.flucht_section ol li {
+  margin-bottom: 16px;
 }
 
 /* rows and columns */
