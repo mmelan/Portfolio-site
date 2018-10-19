@@ -23,7 +23,8 @@ h1{
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
-  margin-top: 0;
+  margin-top: 0px;
+  margin-bottom: 40px;
   padding-top: 0.83em;
 }
 
@@ -129,7 +130,7 @@ header {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -150,6 +151,14 @@ nav > ul > li {
   font-family: 'Londrina Sketch', cursive;
   color: #1B4F78;
   font-size: 2em;
+}
+
+.list ol li {
+  margin-bottom: 16px;
+}
+
+.list ul li{
+  margin-bottom: 16px;
 }
 
 a.logo {
@@ -196,12 +205,14 @@ img {
 /* About */
 
 #about {
-  width: 60%;
+  width: 50%;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 60px;
-  padding: 60px 0 60px;
+  margin: 20px auto 60px;
+  padding: 40px 0 40px;
+}
+
+#about img {
+  width: 70%;
 }
 
 /* Skills */
@@ -216,8 +227,7 @@ img {
 
 /* Expertland */
 
-#expertland_intro {
-
+#expertland_intro .container {
   padding-top: 50px;
   text-align: center;
   margin: 0px auto 80px auto;
@@ -229,7 +239,7 @@ img {
   margin: 40px 0px;
 }
 
-.expertland_story {
+.expertland_story{
   padding-top: 40px;
   text-align: center;
   font-style: italic;
@@ -241,8 +251,7 @@ img {
   margin: 40px 0px;
 }
 
-.expertland_section {
-  text-align: left;
+.expertland_section .container{
   margin: 80px auto 80px auto;
   width: 60%;
 }
@@ -255,33 +264,24 @@ img {
 .expertland_section img {
   display: block;
   margin: 60px auto 60px auto;
-  width: 100%;
 }
 
-#expertland_screenshots img {
+.expertland_screenshots img {
   width: 60%;
 }
 
 .expertland_section ul {
-  padding-left: 100px;
+  padding-left: 90px;
   margin: 30px 0;
   text-align: left;
   width: 90%;
 }
 
 .expertland_section ol {
-  padding-left: 100px;
+  padding-left: 80px;
   margin: 30px 0;
   text-align: left;
   width: 80%;
-}
-
-.expertland_section ul li {
-  margin-bottom: 16px;
-}
-
-.expertland_section ol li {
-  margin-bottom: 16px;
 }
 
 #expertland_search h3 {
@@ -290,25 +290,25 @@ img {
   margin-bottom: 0;
 }
 
-
 /* Wooords */
 
-#wooords_intro {
-
-  padding-top: 50px;
+#wooords_intro .container {
   text-align: center;
+  padding-top: 50px;
   margin: 0px auto 80px auto;
-  width: 60%;
+  width: 52%;
+}
+
+.wooords_story {
+  font-style: italic;
 }
 
 #wooords_intro img {
-  width: 20%;
+  width: 22%;
   margin: 40px 0px;
 }
 
-.wooords_section {
-  text-align: left;
-  margin: auto;
+.wooords_section .container {
   width: 60%;
 }
 
@@ -320,8 +320,8 @@ img {
 
 .wooords_document img {
   display: block;
-  margin: 50px auto 0px auto;
-  width: 60%;
+  margin: 60px auto 0px auto;
+  width: 70%;
 }
 
 .wooords_section ol {
@@ -331,26 +331,20 @@ img {
   width: 85%;
 }
 
-.wooords_section ol li {
-  margin-bottom: 16px;
-}
-
 /* Flucht */
 
-#flucht_intro {
-
+#flucht_intro .container{
   padding-top: 50px;
   text-align: center;
-  margin: 0px auto 80px auto;
+  margin-bottom: 80px;
   width: 65%;
 }
 
 #flucht_intro img {
-  width: 100%;
   margin: 40px 0px;
 }
 
-.flucht_section {
+.flucht_section .container {
   text-align: left;
   margin: auto;
   width: 65%;
@@ -358,14 +352,7 @@ img {
 
 .flucht_section img {
   display: block;
-  width: 100%;
   margin: 60px auto 80px auto;
-}
-
-.flucht_document img {
-  display: block;
-  margin: 50px auto 0px auto;
-  width: 60%;
 }
 
 .flucht_section ol {
@@ -375,9 +362,6 @@ img {
   width: 85%;
 }
 
-.flucht_section ol li {
-  margin-bottom: 16px;
-}
 
 /* rows and columns */
 
@@ -419,19 +403,19 @@ img {
 }
 
 .expertland_row-1 {
-  height: 650px;
+  height: 550px;
 }
 
 .expertland_row-2 {
-  height: 650px;
+  height: 550px;
 }
 
 .expertland_row-3 {
-  height: 800px;
+  height: 650px;
 }
 
 .expertland_row-4 {
-  height: 800px;
+  height: 650px;
 }
 
 .work-col {
@@ -462,58 +446,78 @@ Medium devices (smaller than 1025px)
     width: 80%;
   }
 
-  .expertland_section {
+
+  #expertland_intro .container{
     width: 70%;
+  }
+
+  .expertland_section .container{
+    width: 70%;
+  }
+
+  .expertland_story{
+    width: 60%;
   }
 
   .expertland_section ol {
     padding-left: 60px;
-    width: 80%;
+    width: 90%;
   }
 
 
   .expertland_section ul {
     padding-left: 60px;
-    width: 80%;
+    width: 90%;
   }
 
   [class*="expertland_row-"] {
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   [class*="expertland_row-"] img {
     width: 60%;
-    padding: 20px;
+    padding: 10px;
+  }
+
+  #expertland_search .container {
+    max-width: 800px;
   }
 
   .expertland_row-1 {
-    height: auto !important;
-  }
-
-  .expertland_row-2 {
-    height: 600px !important;
+    height: 500px !important;
   }
 
   .expertland_row-3 {
-    height: auto !important;
+    height: 500px !important;
   }
 
   .expertland_row-4 {
     height: auto !important;
   }
 
-  .wooords_section {
+  #wooords_intro .container {
+    width: 60%;
+  }
+
+  .wooords_section .container {
     width: 70%;
   }
 
   .wooords_section ol {
     padding-left: 60px;
+    width: 90%
   }
 
-  .flucht_section {
-    text-align: left;
-    margin: auto;
+  .wooords_section img {
+    width: 100%;
+  }
+
+  .wooords_document img {
+    width: 70%;
+  }
+
+  .flucht_section .container{
     width: 75%;
   }
 
@@ -571,12 +575,17 @@ Small devices (smaller than 768px)
   }
 
   #about {
-    width: 100%;
+    width: 95%;
     text-align: left;
   }
 
-  #expertland_intro{
-    width: 90%;
+  #about img {
+    display: block;
+    margin: auto;
+  }
+
+  #expertland_intro .container{
+    width: 95%;
     text-align: left;
   }
 
@@ -590,7 +599,7 @@ Small devices (smaller than 768px)
     width: 80%;
   }
 
-  .expertland_section {
+  .expertland_section .container {
     width: 95%;
   }
 
@@ -600,37 +609,24 @@ Small devices (smaller than 768px)
 
   .expertland_section ol {
     padding-left: 20px;
-    width: 90%;
+    width: 95%;
   }
 
   .expertland_section ul {
     padding-left: 20px;
-    width: 90%;
+    width: 95%;
   }
 
-  .expertland_row-1 {
-    height: auto !important;
+  .expertland_screenshots img {
+    width: 80%;
   }
 
-  .expertland_row-2 {
-    height: 600px !important;
-  }
-
-  .expertland_row-3 {
-    height: auto !important;
-  }
-
-  .expertland_row-4 {
-    height: 600px !important;
-  }
-
-
-  h5 {
+  h5 { /* Expertland, user testing; Test Objects */
       padding-left: 20px;
       padding-top: 40px;
   }
 
-  #wooords_intro {
+  #wooords_intro .container {
     width: 90%;
   }
 
@@ -638,7 +634,7 @@ Small devices (smaller than 768px)
     width: 50%;
   }
 
-  .wooords_section {
+  .wooords_section .container {
     width: 95%;
   }
 
@@ -647,20 +643,20 @@ Small devices (smaller than 768px)
   }
 
   .wooords_document img {
-    width: 95%;
+    width: 100%;
   }
 
   .wooords_section ol {
     padding-left: 20px;
-    width: 90%;
+    width: 95%;
   }
 
-  #flucht_intro {
-    text-align: center;
-    width: 90%;
+  #flucht_intro .container{
+    text-align: left;
+    width: 95%;
   }
 
-  .flucht_section {
+  .flucht_section .container {
     width: 95%;
   }
 
@@ -678,7 +674,7 @@ Small devices (smaller than 768px)
 
   .flucht_section ol {
     padding-left: 20px;
-    width: 90%;
+    width: 95%;
   }
 
 }
