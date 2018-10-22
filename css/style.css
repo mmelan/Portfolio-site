@@ -135,6 +135,10 @@ header {
   padding: 0 20px;
 }
 
+header .container {
+    max-width: 1200px;
+}
+
 nav {
   display: inline-block;
   float: right;
